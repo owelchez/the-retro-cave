@@ -1,0 +1,107 @@
+body {
+  font-family: 'Anton', sans-serif;
+}
+
+p {
+  padding: 0 20px 0 20px;
+}
+
+#nes-console {
+  position: inherit;
+  height: 500px;
+  background-image: url("../images/background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#contact {
+  background-color: black;
+  text-align: center;
+  color: #ffffff
+}
+
+#game-collection {
+  height: 800px;
+  background-image: url("../images/pileofgamesretro1_orig.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#game-collection h3 {
+  color: black;
+  font-size: 100px;
+  padding-top: 1000px;
+  text-align: center;
+}
+
+.journey-text {
+  font-size: 20px;
+  color: #fff;
+  text-align: left;
+  padding-top: 190px;
+}
+
+.new-game-text {
+  color: #fff;
+  padding-top: 5px;
+  text-align: right;
+}
+
+.navbar h1 {
+  color: black;
+  padding-top: 5px;
+  font-size: 30px;
+}
+
+.bus-card-front img {
+  border-radius: 5px;
+  width: 400px;
+}
+
+.flip {
+    height: 237px;
+    width: 429px;
+    margin: 0 auto;
+}
+.flip img {
+    width: 429px;
+}
+.flip .back {
+    width: 429px;
+    /* height: 237px; */
+    background-image: url("../images/bus-card-back.png");
+    color: #fff;
+    text-align: center;
+}
+
+.contact-header {
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+.bottom-container {
+  text-align: center;
+}
+
+.google-map {
+  padding-bottom: 50px;
+}
+
+
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
